@@ -1,0 +1,349 @@
+body{
+    border-collapse: collapse;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #1C1F2A;
+}
+
+header{
+    background-color: #1C1F2A;
+    height: 1200px;
+    margin-top: 150px;
+}
+
+.entete__logo{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 240px;
+    }
+
+.entete__infos{
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+
+    &--nom{
+        font-size: 8em;
+        color: white;
+    }
+
+    &--dev{
+        font-family: 'Signika', 'Arial', 'sans-serif';
+        font-weight: 300;
+        font-size: 3.5em;
+        color: white;
+
+    }
+}
+
+
+/*********************/
+/****** Nav *******/
+/*********************/
+nav{
+    height: 150px;
+
+    .navbar__logo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .navbar__icon{
+        height: 80px;
+        width: 80px;
+    }
+
+    .navbar__item{
+        height: 120px;
+        font-size: 3.3em;
+        text-transform: uppercase;
+        font-weight:200;
+        text-align: right;
+        margin: 0 20px;
+         
+    }
+
+    .navbar-nav{
+        width: 100%;
+        height: 680px;
+        padding-top: 55px;
+    }
+}
+
+
+// /*********************/
+// /**** Présentation ***/
+// /*********************/
+
+
+.presentation{
+    margin-top: 100px;
+    // text-align: center;
+    color: #1C1F2A;
+    font-size: 2.5em;
+
+    .presentation__img{
+        margin: 0 240px;
+    }
+    
+    .presentation__infos{
+        margin-top: 50px;
+        padding-left: 10px;
+
+        &--titre{
+            margin-left: 20px;
+            font-size: 1.2em;
+
+        }
+    }
+
+    .presentation__infos__list{
+        height: 900px;
+    
+        &--arg{
+            height: 130px;
+            list-style-type: none;
+            background-image: url(../img/puce.svg);
+            background-repeat: no-repeat;
+            background-position-y: 15px;
+            padding-left: 155px;
+            padding-top: 20px;
+            padding-right: 40px;
+            margin-bottom: 65px;
+        }
+
+        .pad-top{
+            padding-top:40px;
+        }
+    }
+}
+
+
+
+/*********************/
+/**** Compétences ****/
+/*********************/
+
+.competences{
+    background-color: #1C1F2A;
+    height: 1300px;
+    margin-top: 75px;
+    color: white;
+
+    &--title{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 6em;
+    }
+
+    .competences__container{
+        width: 80%;
+        margin: 70px auto;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        &--logo{
+            width: 200px;
+            height: 200px;
+        }
+
+        .logopyt{
+            padding-left: 20px;
+        }
+        
+        .logogit{
+            padding-top: 56px;
+        }
+    }
+
+}
+
+
+
+/*********************/
+/**** Projects ****/
+/*********************/
+.projects{
+    height: 1960px;
+    margin-top: 100px;
+
+    &--title{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 6em;
+        margin-bottom: 150px;
+    }
+
+    &--container{
+        width: 80%;
+        margin: 0 auto;
+
+        .carousel{
+            margin-bottom: 100px;
+        }
+    }
+}
+
+
+
+
+
+/*********************/
+/**** Parcours ****/
+/*********************/
+.career{
+    height: 3000px;
+    background-color: #1C1F2A;
+    color: white;
+
+    &--title{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 6em;
+        margin-bottom: 150px;
+        color:white;
+    }
+
+    .career__description__container{
+        width: 80%;
+        border-left: 2px white solid;
+        margin-left: 35px;
+        padding-left: 20px;
+        margin-bottom: 115px;
+
+        &--date{
+            font-size: 3.5em;
+
+        }
+
+        &--item{
+            font-size: 3.5em;
+            color: #00B2A9;
+        }
+
+        &--loca{
+            font-size: 3.5em;
+            font-weight: 200;
+
+        }
+
+        &--desc{
+            font-weight: 200;
+            font-size: 3em;
+        }
+    }
+}
+
+
+/*********************/
+/**** Contact ****/
+/*********************/
+.contact{
+    height: 1500px;
+
+    &--title{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 6em;
+        margin-bottom: 150px;
+    }
+
+    form {
+        font-size: 3em;
+        margin-left: 100px;
+
+        .firstname{
+            input{
+                height: 75px;
+                width: 360px;
+                font-size: 0.8em;
+            }
+        }
+        .name{
+            margin-left: 115px;
+
+            input{
+                height: 75px;
+                width: 360px;
+                font-size: 0.8em;
+            }
+        }
+
+        .email{
+            margin-top: 40px;
+            
+            input{
+                width:770px;
+                font-size: 0.8em;
+            }
+        }
+
+        .message{
+            margin-top: 40px;
+
+            label{
+                width: 770px;
+            }
+
+            textarea{
+                height: 280px;
+                width: 770px;
+                font-size: 0.8em;
+            }
+        }
+
+        button{
+            background-color: #1C1F2A;
+            width: 180px;
+            height: 90px;
+            font-size: 0.8em;
+            margin-top: 20px;
+            border-color: #1C1F2A;
+            
+        }
+
+        button:active, button:visited, button:hover, .btn-primary{
+           background-color: #00B2A9 !important;
+        }
+    }
+}
+
+
+/*********************/
+/**** Footer ****/
+/*********************/
+footer{
+    height: 250px;
+    background-color: #1C1F2A;
+
+    .footer__content{
+        width: 50%;
+        margin: auto;
+        padding-top: 40px;
+        text-align: center;
+
+        &--github{
+            width: 20%;
+        }
+
+        &--linkedin{
+            width: 20%;
+            margin-left: 40px;
+        }
+    }
+
+    .footer__copyright{
+
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+    
+}
+
