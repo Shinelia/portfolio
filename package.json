@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx node-sass scss/main.scss css/style.css",
+    "prod": "node-sass scss/main.scss css/style.css && postcss css/style.css -o css/style.css -u autoprefixer && postcss css/style.css -o css/style.css -u cssnano"
   },
   "author": "",
   "license": "ISC",
